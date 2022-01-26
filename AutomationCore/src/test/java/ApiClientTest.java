@@ -1,7 +1,6 @@
 import com.utility.Apiclient;
 import com.utility.Booking;
 import io.restassured.path.json.JsonPath;
-import org.json.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -9,7 +8,7 @@ import java.util.HashMap;
 
 public class ApiClientTest {
 
-    private String host = "http://loca";
+    private String host = "https://www.cartrawler.com/ct/";
     private TestEndpoint endpoint = new TestEndpoint();
     Apiclient apiClient = new Apiclient();
     HashMap<String, String> parameters = new HashMap<>();
@@ -17,7 +16,7 @@ public class ApiClientTest {
 
     @Test
     public void testGETBooking() {
-        endpoint.setMethod("/2021-08-18");
+        endpoint.setMethod("price");
         endpoint.setMethodType("GET");
         endpoint.setRequestType("REST");
 
