@@ -15,7 +15,7 @@ public class ApiClientTest {
     HashMap<String, String> headers = new HashMap<>();
 
     @Test
-    public void testGETBooking() {
+    public void testGETPrice() {
         endpoint.setMethod("price");
         endpoint.setMethodType("GET");
         endpoint.setRequestType("REST");

@@ -10,3 +10,10 @@
  3) Written some unit testing 
  
  4) Created testng framework
+ 
+ under test/JAVA
+ 
+ 5) Cars.json file to read json file 
+ 6) CarTrawler class to have main functionality
+ 
+ 
